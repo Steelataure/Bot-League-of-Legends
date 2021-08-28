@@ -61,4 +61,4 @@ Vous pouvez mettre sur n'importe quel allié (de 1 à 4)
 
 ## Auteur
 
-**Alexandre Buisset** alias **Steel**
+* **Alexandre Buisset** alias **Steel**
