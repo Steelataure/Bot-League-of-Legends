@@ -18,7 +18,7 @@ Bot qui joue tout seul à League of Legends permettant de :
 * Si le bot finis une partie laissez lui le temps de refaire une partie (il enchaînera les games)
 
 * Le bot est configuré pour jouer en **priorité caitlyn** (les tireurs font des meilleurs performances par le bot)  
-### POUR CHANGER : 
+### POUR CHANGER IL FAUT MODIFIER DANS LE CODE LE NOM DU CHAMPION : 
 
 ```
 champion_prioritaire = 'caitlyn'
@@ -39,13 +39,26 @@ pip install pyautogui
 * Avoir la fenêtre du client League of Legends en **1280x720**
 * Suivre les étapes suivantes
 
-![Clique gauche sur un allié](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/clique%20gauche.PNG 'Clique gauche sur un allié')
-
 ![Dimension de la fenetre](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/fenetre.PNG 'Dimension de la fenetre')
 
 
+***
+
+![Clique gauche sur un allié](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/clique%20gauche.PNG 'Clique gauche sur un allié')
+
+***
+
 ![](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/clique%20cam.PNG)
+
+### Cela va permettre de suivre un allié, il faut bind la même touche de souris (clique droit) 
+Vous pouvez mettre sur n'importe quel allié (de 1 à 4)
 
 
 ## Optimiser l'IA (optionnel mais recommandé)
 ![Activation attaque automatique](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/attaque%20auto.PNG?raw=true "Attaque automatique")
+
+***
+
+## Auteur
+
+**Alexandre Buisset** alias **Steel**
