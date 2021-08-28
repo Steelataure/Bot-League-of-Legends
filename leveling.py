@@ -2,6 +2,14 @@ import win32api, win32con
 import pyautogui
 import time
 
+
+# Pour que le programme fonctionne, il faut avoir la même résolution d'écran (24 pouce)
+# et que la taille du client soit de 1280x720
+
+# Champion qui sera choisi en priorité (Modifiable)
+champion_prioritaire = 'caitlyn'
+
+
 def click(x, y):
     win32api.SetCursorPos((x, y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, x, y, 0, 0)
@@ -34,7 +42,7 @@ def champ_select():
     time.sleep(2)
 
     # EN CAS DE DODGE / LEAVE BUSTER
-    # time.sleep(1200)
+    # time.sleep(TEMPS DE PENALITE EN SECONDE)
 
     click(900, 720)  # ACCEPTER
     time.sleep(15)
@@ -45,7 +53,7 @@ def champ_select():
 
     click(1100, 260)
     time.sleep(1)
-    pyautogui.write('caitlyn')
+    pyautogui.write(champion_prioritaire)
     time.sleep(1)
     click(740, 320)
 
@@ -75,7 +83,7 @@ def ingame():
 
         click(1100, 260)
         time.sleep(1)
-        pyautogui.write('caitlyn')
+        pyautogui.write(champion_prioritaire)
         time.sleep(1)
         click(740, 320)
         time.sleep(1)
@@ -97,9 +105,7 @@ def after_game():
 
 
 while True:
-
-    for k in range(8):
-        champ_select()
-        time.sleep(30)
-        ingame()
-        time.sleep(15)
+    champ_select()
+    time.sleep(30)
+    ingame()
+    time.sleep(15)
