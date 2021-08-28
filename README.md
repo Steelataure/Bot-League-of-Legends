@@ -8,8 +8,12 @@ Bot qui joue tout seul à League of Legends permettant de :
 
 ***
 
-## Aperçu des games joué par le bot
-![Résultats du Bot](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/IA%20taff.PNG 'Résultats du Bot')
+## Aperçu du bot
+![Résultats du Bot](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/IA%20taff.PNG 'Résultats du Bot')  
+
+***
+
+![Aperçu](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/apercu.gif)
 
 ## Gameplay du bot
 
