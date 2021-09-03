@@ -29,16 +29,15 @@ Bot qui joue tout seul à League of Legends permettant de :
 
 ## Conditions pour l'utiliser
 
-* Il vous faut un **écran 24 pouce** (si oui vous pourrez utiliser le bot)
 * Télécharger l'ensemble des fichiers
-* Ouvrir le projet et installer les modules nécessaires dans le terminal 
+* Ouvrir le projet et installer les modules nécessaires dans le terminal de votre IDE (exemple : Pycharm)
 ```
 pip install pywin32 
 ```
 ```
 pip install pyautogui
 ```
-* Avoir la fenêtre du client League of Legends en **1280x720**
+* Avoir la fenêtre du client League of Legends à la bonne taille
 * Suivre les étapes suivantes
 
 ![Dimension de la fenetre](https://github.com/Steelataure/Bot-leveling-League-of-Legends/blob/league/Readme/fenetre.PNG 'Dimension de la fenetre')
