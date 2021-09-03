@@ -91,9 +91,9 @@ def loop():
 
     def champ_select():
         click(850, 850)  # LANCER
-        time.sleep(5)
+        time.sleep(4)
         click(850, 850)  # LANCER
-        time.sleep(2)
+        time.sleep(4)
 
         # EN CAS DE DODGE / LEAVE BUSTER
         # time.sleep(TEMPS DE PENALITE EN SECONDE)
