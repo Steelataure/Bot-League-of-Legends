@@ -22,11 +22,9 @@ Bot qui joue tout seul à League of Legends permettant de :
 * Si le bot finis une partie laissez lui le temps de refaire une partie (il enchaînera les games)
 
 * Le bot est configuré pour jouer en **priorité caitlyn** (les tireurs font des meilleurs performances par le bot)  
-### POUR CHANGER IL FAUT MODIFIER DANS LE CODE LE NOM DU CHAMPION : 
+### FENETRE TKINTER POUR CHANGER DE CHAMPION
 
-```
-champion_prioritaire = 'caitlyn'
-```
+![Tkinter](https://github.com/Steelataure/Bot-League-of-Legends/blob/league/Readme/choisir.PNG)
 
 
 ## Conditions pour l'utiliser
