@@ -5,7 +5,6 @@ from tkinter import *
 import tkinter.font as font
 import sys
 
-
 # Pour que le programme fonctionne, il faut avoir la même résolution d'écran (24 pouce)
 # et que la taille du client soit de 1280x720
 
@@ -14,7 +13,7 @@ import sys
 
 interface = Tk()
 interface.title("LeagueBot")
-# interface.iconbitmap("botleague2.ico")
+interface.iconbitmap("data/botleague2.ico")
 interface.resizable(width=False, height=False)
 
 window_width = 650
@@ -37,8 +36,8 @@ f2 = font.Font(size=15, weight='bold', family='ArialBlack')
 vide = Frame(None)
 vide.pack(pady=22)
 Champion_prioritaire = Entry(width=30, font='ArialBlack', borderwidth=4, bg='#C829DD')
-Champion_prioritaire.pack(padx=20, pady=40)
 Champion_prioritaire['font'] = f
+Champion_prioritaire.pack(padx=20, pady=40)
 Champion_prioritaire.focus()
 
 champion_prioritaire = ["Caitlyn"]
@@ -54,10 +53,12 @@ def Champion_saisi():
         sys.exit()
 
 
-Go = Button(text="Utiliser le Bot", width=16, borderwidth=5, command=Champion_saisi,
-            bg='#268BE1')
+start = PhotoImage(file='data/start.png')
+
+Go = Button(width=200, borderwidth=0, command=Champion_saisi)
+Go.config(image=start)
 Go['font'] = f2
-Go.pack()
+Go.pack(pady=25)
 
 
 def click(x, y):
