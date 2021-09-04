@@ -35,7 +35,7 @@ f = font.Font(size=20)
 f2 = font.Font(size=15, weight='bold', family='ArialBlack')
 
 vide = Frame(None)
-vide.pack(pady=25)
+vide.pack(pady=15)
 Champion_prioritaire = Entry(width=30, font='ArialBlack', borderwidth=4, bg='#C829DD')
 Champion_prioritaire.pack(padx=20, pady=40)
 Champion_prioritaire['font'] = f
