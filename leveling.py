@@ -29,13 +29,13 @@ interface.geometry(f"{window_width}x{window_height}+{x_cordinate}+{y_cordinate}"
 
 background = PhotoImage(file='data/degrad.png')
 label1 = Label(interface, image=background)
-label1.place(x=-2, y=0)
+label1.place(x=-2, y=-2)
 
 f = font.Font(size=20)
 f2 = font.Font(size=15, weight='bold', family='ArialBlack')
 
 vide = Frame(None)
-vide.pack(pady=15)
+vide.pack(pady=22)
 Champion_prioritaire = Entry(width=30, font='ArialBlack', borderwidth=4, bg='#C829DD')
 Champion_prioritaire.pack(padx=20, pady=40)
 Champion_prioritaire['font'] = f
