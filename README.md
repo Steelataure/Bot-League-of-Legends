@@ -31,7 +31,7 @@ Bot qui joue tout seul à League of Legends permettant de :
 
 * Télécharger l'ensemble des fichiers
 
-
+* Dépend de la taille de votre écran (marche pas au dessus de 24 pouces)
 * Avoir la fenêtre du client League of Legends à la bonne taille
 * Suivre les étapes suivantes
 
