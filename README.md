@@ -19,9 +19,9 @@ Bot qui joue tout seul à League of Legends permettant de :
 
 * La souris sera occupé par le bot donc vous ne pourrez **pas utiliser votre pc** en même temps pour faire une autre tâche 
 * Le bot va **poursuivre un allié** et va jouer avec les options qu'on mettra par la suite afin d'avoir un meilleur potentiel   
-* Si le bot finis une partie laissez lui le temps de refaire une partie (il enchaînera les games)
+* Si le bot finit une partie laissez-lui le temps de refaire une partie (il enchaînera les parties)
 
-* Le bot est configuré pour jouer en **priorité caitlyn** (les tireurs font des meilleurs performances par le bot)  
+* Le bot est configuré pour jouer en **priorité Caitlyn** (les tireurs font des meilleures performances par le bot)  
 ### FENETRE TKINTER POUR CHANGER DE CHAMPION
 
 ![Tkinter](https://github.com/Steelataure/Bot-League-of-Legends/blob/master/Readme/choix.PNG 'interface')
@@ -31,7 +31,7 @@ Bot qui joue tout seul à League of Legends permettant de :
 
 * Télécharger l'ensemble des fichiers
 
-* Dépend de la taille de votre écran (marche pas au dessus de 24 pouces)
+* Dépends de la taille de votre écran (ne fonctionne pas pour un écran supérieur à de 24 pouces)
 * Avoir la fenêtre du client League of Legends à la bonne taille
 * Suivre les étapes suivantes
 
